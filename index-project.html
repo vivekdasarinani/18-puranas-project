@@ -1,0 +1,194 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>18-puranalu </title>
+
+
+<script type="text/javascript" src="js/bootstrap.bundle.min.js" ></script>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="jquary/jquery.js"> </script>
+<style type="text/css">
+.arrow{
+position:fixed;
+bottom:0px;
+right: 0px;
+cursor: pointer;
+z-index: 1;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#pointer").hide();
+$(window).scroll(function(){
+if($(window).scrollTop()>100){
+$("#pointer").fadeIn(1000);
+}else{
+$("#pointer").fadeOut(1000);
+}
+})
+$("#pointer").click(function(){
+$(window).scrollTop(0); 
+})
+
+})
+
+</script>
+<div class="container-fluid">
+ <div class="row">
+ 	
+  	<div class="col-mb-12 ">
+  	<img src="img/pointer2.png" class="arrow" id="pointer" alt=""/>
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+    <a class="navbar-brand" href="projecthomepage.html"><img src="img/veda vyas7fe.jpg " class="w-50 img-fluid " alt=""/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcontent" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarcontent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active fs-4" aria-current="page" href="index-project.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4" href="project-shiva.html">18-puranalu</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link fs-4" href="project-literature.html">vadas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link fs-4 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" >
+            others
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="18-puranas.html">18-puranalu</a></li>
+            <li><a class="dropdown-item" href="vadas.html">vadas</a></li>
+           
+           
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4 " href="project-contactus.html">contact us</a>
+        </li>
+        </ul> 
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" >
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      
+      
+    </div>
+  
+</nav>
+  	
+  </div>
+</div>	
+  <div class="row">
+  	<div class="col-mb-12">
+	  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <img src="img/download (3).jfif" class="d-block w-100 img-fluid" >
+    </div>
+    <div class="carousel-item active">
+      <img src="img/1_glUItAzRPlZJt9rfhlijxg.png" class="d-block w-100 img-fluid" >
+    </div>
+    <div class="carousel-item">
+      <img src="img/Ganesa-purana.jpg" class="d-block w-100 img-fluid" >
+    </div>
+     <div class="carousel-item">
+      <img src="img/How-old-are-puranas-990x510.jpg" class="d-block w-100 img-fluid" >
+    </div>
+   
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" ></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" ></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  	</div>
+  </div>
+  <div class="row">
+  	<div class="col-lg-4 col-md-4 shadow-lg text-center  "> <img src="img/dhdhd.jpg" class="img-fluid mt-3  " alt="dhdhd.image"/> <a href="#vadas"> <h1 class="h1 text-center">vadas</h1></a> </div>
+  	<div class="col-lg-4 col-md-6  shadow-lg text-center "> <img src="img/purana purushudu lord vishnu.jpg" class="img-fluid mt-3 " alt="purana purushudu lord vishnu"/> <a href="#18-puranas"> <h1 class="h1 text-center">18-puranas</h1></a></div>
+  	<div class="col-lg-4 col-md-6  shadow-lg text-center"> <img src="img/veda vyas7fe.jpg" class="img-fluid mt-3 " alt="veda vyas7fe"/> <a href="#Upanishads"> <h1 class="h1 text-center ">Upanishads</h1> </a></div>
+  
+  </div>
+  <div class="row">
+  	<div class="col-md-12 text-capitalize text-center">
+  		<span id="vadas">  <h1 class="h1">vadas</h1>  </span>
+  	</div>
+  </div>
+  <div class="row">
+  	<div class="col-md-5" style="background-color: darkgray;">  <img src="img/vedas and puranas.jpg" class="img-fluid w-400 h-300" alt="puranalu"/></div>
+  	<div class="col-md-7 pt-2" style="background-color: rgb(104, 100, 100);"><p style="font-family: helvetica,arial,sans serif,serif;" class="text-start"><article> <span class="fs-4">vadas</span> </article></p> <p style="font-family: helvetica,arial,sans serif,serif;" class="text-start">    There is 1 Maha Purana, 18 Mukhya Puranas (Major Puranas) and 18 Upa Puranas             s</p>
+	<p style="font-family: helvetica,arial,sans serif,serif;" class="text-start">.                                                                                                                                                                                                                             హిందూమతంలో అత్యంత మౌలికమైన ప్రమాణంగా వేదాలను గుర్తిస్తారు. వేదములను శ్రుతులు (వినబడినవి) అనీ, ఆమ్నాయములు అనీ అంటారు. "విద్" అనే ధాతువుకు "తెలియుట" అన్న అర్ధాన్నిబట్టి వేదములు భగవంతునిద్వారా "తెలుపబడినవి" అనీ, అవి ఏ మానవులచేతనూ రచింపబడలేదు అనీ విశ్వాసము. కనుకనే వేదాలను అపౌరుషేయములు అని కూడా అంటారు. వేదములను తెలిసికొన్న ఋషులను ద్రష్టలు అని అంటారు. ద్రష్ట అంటే దర్శించినవాడు అని అర్ధం. హిందూ శాస్త్రాల ప్రకారం వేదాలను ఋషులు భగవంతుని నుండి విని గానం చేశారు. అందుకే వీటిని శ్రుతులు అని కూడా అంటారు.
+
+              ఏనం విందంతి వేదేన తస్మాద్వేదస్య వేదతా,, (ఇష్టప్రాప్తి, అనిష్ఠపరిహారం ) కావల్సిన వాటిని తీర్చి అక్కర్లేని వాటిని రాకూండా చేసే ఆధ్యాత్మిక ఉపాయమే వేదం
+       </p> </div>
+  </div>
+   <div class="row">
+  	<div class="col-md-12 text-capitalize text-center">
+  		<span id="#18-puranas">  <h1 class="h1 text-wrap">18-puranas</h1>  </span>
+  	</div>
+  </div>
+  <div class="row">
+    <div class="col-md-7 bg-black text-light"><p><span class="fs-4 ">3	Vishnu	23,000 verses	One of the most studied and circulated Puranas,
+        it also contains genealogical details of various dynasties.[37] Better preserved after the 17th century,
+        but exists in inconsistent versions, more ancient pre-15th century versions are very different from modern versions, with some versions discussing Buddhism and Jainism. Some chapters likely composed in Kashmir and Punjab region of South Asia.
+        A Vaishnavism text, focused on Vishnu.[38]
+
+
+4	Shiva	24,000 verses	
+            The Shiva Purana is one of eighteen Purana genre of Sanskrit texts in Hinduism, and part of the Shaivism literature corpus. It primarily centers around the Hindu god Shiva and goddess Parvati,
+            but references and reveres all gods.
+            The Shiva Purana asserts that it once consisted of 100,000 verses set out in twelve samhitas (books),
+           however the Purana adds that it was abridged by sage Vyasa before being taught to Romaharshana.
+		   <br>
+
+5	Bhagavata	18,000 verses	The most studied and popular of the Puranas,
+        telling of Vishnu's Avatars, and of Vaishnavism.
+        It contains genealogical details of various dynasties.
+        Numerous inconsistent versions of this text and historical manuscripts exist,
+		<br>
+        in many Indian languages.Influential 
+        and elaborated during Bhakti movement.
+
+6	Narada	25,000 verses	Also called Naradiya Purana.g
+           Discusses the four Vedas and the six Vedangas. Dedicates one chapter each, 
+           from Chapters 92 to 109, to summarize the other 17 Maha Puranas and itself.
+            Lists major rivers of India and places of pilgrimage, and a short tour guide for each. 
+            Includes discussion of various philosophies, soteriology, planets, astronomy, myths and characteristics of major deities including Vishnu, Shiva, Devi, Krishna, Rama, 
+          Lakshmi and others. )</span> unarmed martial-arts discipline employing kicking, striking, and defensive blocking with arms and legs. Emphasis is on concentrating as much of the body’s power as possible at the point and instant of impact. Striking surfaces include the hands (particularly the knuckles and the outer edge), ball of the foot, heel, forearm, knee, and elbow. All are toughened by practice blows against padded surfaces or wood. Pine boards up to several inches in thickness can be broken by the bare hand or foot of an expert. Timing, tactics, and spirit, however, are each considered at least as important as physical toughening.</p> <p>In sporting karate and sparring (kumite) in training, blows and kicks are stopped short, preferably within an inch of contact. Sporting matches commonly last about three minutes, to a decision, if neither contestant has scored a clean “killing” point in the estimation of the judges. Contests of form (kata) are also held, in which single competitors perform predetermined series of movements simulating defense and counterattack against several opponents. Performances are scored by a panel of judges, as in gymnastics.</p></div>
+<br>
+  	<div class="col-md-5 text-center bg-black text-light">
+    <img src="img/unnamed.jpg" class="img-fluid w-120 "> </div>
+  </div>
+   <div class="row">
+  	<div class="col-md-12 text-capitalize text-center">
+  		<span id="#Upanishads">  <h1 class="h1">Upanishads</h1>  </span>
+  	</div>
+  </div>g
+  <div class="row">
+  	<div class="col-md-5"><img src="img/1532507506-1478-1024x1024.jpg" class="img-fluid" alt=""/></div>
+  	<div class="col-md-7"><p> <span class="fs-4 ">Upanishads</span> The Upanishads Sanskrit: उपनिषद् Upaniṣad pronounced are late Vedic Sanskrit texts of Hindu philosophy which supplied the basis of later Hindu philosophy.[2][3][note 1][note 2] They are the most recent part of the Vedas, the oldest scriptures of Hinduism, and deal with meditation, philosophy, consciousness and ontological knowledge; other parts of the Vedas deal with mantras, benedictions, rituals, ceremonies, and sacrifices.[6][7][8] While among the most important literature in the history of Indian religions and culture, the Upanishads document a wide variety of "rites, incarnations, and esoteric knowledge"[9] departing from Vedic ritualism and interpreted in various ways in the later commentarial traditions. Of all Vedic literature, the Upanishads alone are widely known, and their diverse ideas, interpreted in various ways, informed the later traditions of Hinduism.[2][10]nal lore. The Puranas are known for the intricate layers of symbolism depicted within theirn The story begins when the blindness of Dhritarashtra, the elder of two princes, causes him to be passed over in favour of his brother Pandu as king on their father’s death. A curse prevents Pandu from fathering children, however, and his wife Kunti asks the gods to father children in Pandu’s name. As a result, the god Dharma fathers Yudhishtira, the Wind fathers Bhima, Indra fathers Arjuna, and the Ashvins (twins) father Nakula and Sahadeva (also twins; born to Pandu’s second wife, Madri). The enmity and jealousy that develops between the cousins forces the Pandavas to leave the kingdom when their father dies. During their exile the five jointly marry Draupadi (who is born out of a sacrificial fire an.</p>
+  	</div>
+  </div>
+  <div class="row">
+  	<div class="col-md-12 text-capitalize bg-black text-white p-3 text-center"> <b class="fs-5 m-5" > copyrights vadas maharshi </b></div>
+  </div>
+</div>
+</body>
+</html>

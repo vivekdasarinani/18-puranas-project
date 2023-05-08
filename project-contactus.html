@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>18-puranalu</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.bundle.min.js" type="text/javascript" ></script>
+<script src="jquary/jquery.js"> </script>
+
+<style type="text/css">
+
+.arrow{
+position:fixed;
+bottom:0px;
+right: 0px;
+cursor: pointer;
+}
+.glowing{
+background:#ff7af6;
+border:0.3em #a8e4e4 solid;
+color:black;
+text-decoration:none;
+border-radius:0.6em;
+padding:0.2em 0.2em;
+margin-top:200px;
+opacity: 100%;
+}
+.glowing:hover{
+
+text-shadow:1px 1px 3px black, 0px 0px 5px #448f8f;
+box-shadow:0px 0px 2em #8c14e8, inset 0px 0px 1em #03F6F6 ;
+opacity:100%;
+}
+
+
+.rgform{
+
+border: 2px solid black  ;
+padding: 2em;
+}
+.arrow{
+position:fixed;
+bottom:0px;
+right: 0px;
+cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#hideff").hide();
+$("#hide2ff").hide();
+$('#review-1').hide();
+$('#review-2').hide();
+$('#review-3').hide();
+$('#review-4').hide();
+$('#review-5').hide();
+$(window).scroll(function(){
+$("#hideff").fadeIn(2000);
+})
+$(window).scroll(function(){
+$("#hide2ff").fadeIn(2000);
+})
+$(window).scroll(function(){
+$('#review-1').slideDown(2000);
+$('#review-2').slideDown(2000);
+$('#review-3').slideDown(2000);
+$('#review-4').slideDown(2000);
+$('#review-5').slideDown(2000);
+})
+  $("#pointer").hide();
+$(window).scroll(function(){
+if($(window).scrollTop()>100){
+$("#pointer").fadeIn(1000);
+}else{
+$("#pointer").fadeOut(1000);
+}
+})
+$("#pointer").click(function(){
+$(window).scrollTop(0); 
+})
+
+})
+
+
+</script>
+<div class="container-fluid">
+
+<div class="row">
+  	<div class="col-mb-12 "  >
+  	<img src="images/pointer2.png" class="arrow" id="pointer" alt=""/>
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+    <a class="navbar-brand" href="projecthomepage.html"><img src="img/ganesh.jpg" class="w-60 img-fluid " alt=""/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcontent" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarcontent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active fs-4" aria-current="page" href="index-project.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4" href="project-shiva.html">18-puranalu</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link fs-4" href="project-literature.html">vadas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link fs-4 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" >
+            others
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="18-puranas.html">18-puranas</a></li>
+            <li><a class="dropdown-item" href="vadas.html">vadas</a></li>
+           
+           
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4 " href="project-contactus.html">contact us</a>
+        </li>
+        </ul> 
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" >
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      
+      
+    </div>
+  
+</nav>
+  	
+  </div>
+</div>	
+  <div class="row">
+  	<div class="col-md-12 ">
+     <img src="img/Sri_maha_Vishnu_avatars_in_Telugu___Vishnu_puranam___%E0%B0%B6%E0%B1%8D%E0%B0%B0%E0%B1%80_%E0%B0%AE%E0%B0%B9%E0%B0%BE%E0%B0%B5%E0%B0%BF%E0%B0%B7%E0%B1%8D%E0%B0%A3%E0%B1%81_%E0%B0%85%E0%B0%B5%E0%B0%A4%E0%B0%BE%E (1).mp4 "  class="img-fluid w-100 " alt=""/></div>
+      
+  	<div class="col-12 col-sm-12 text-black col-md-6 " id="hideff" style="font-family: Gotham, Helvetica Neue, Helvetica, Arial,' sans-serif'">
+  	<h1 class="mt-5 ms-5 text-black"> Skanda Purana  <br> vadas mahashri.in </h1>
+  	<h3  class="mt-5 mb-5 ms-5 text-black">  Varaha Purana  -<br>  Who wrote the 18 Puranas?
+Krishna Dvaipayana Vyasa who is popularly known as Veda Vyasa has been credited with the authorship of the eighteen (18) principal Puranas.</h3>	
+  	 <a class="glowing button ms-5 mt-5 list-unstyled" href="#rform"  >Register now </a>
+  </div>
+  	<div class="col-12 col-sm-12 text-black col-md-6 " id="hide2ff" style="font-family: Gotham, Helvetica Neue, Helvetica, Arial,' sans-serif'">
+  	<h1 class="mt-5 ms-5 text-black">Want to know about <br>vadas mahashri .in</h1>
+  	<h3  class="mt-5 mb-5 ms-5 text-black">Is Puranas part of Vedas? -<br>Is Mahabharata a Purana? </h3>	
+  	 <a class="glowing button ms-5 mt-5 list-unstyled" href="projecthomepage.html"  > now more </a>
+  </div>
+  </div>
+  
+ 
+  <div class="row">
+   
+  	<div class="col-md-12 text-center mt-5 mb-5" style="font-family: Gotham, Helvetica Neue, Helvetica, Arial,' sans-serif'">
+  		<h2>Kurma Purana & Markandeya Purana</h2>
+  	</div>
+  </div>
+<div class="row" style="background-color:#f58eda; padding: 10px;">
+  	<div class="col-md-2 text-center m-auto" id="review-1" style="font-family: Gotham, Helvetica Neue, Helvetica, Arial,' sans-serif'">
+  		<h3>Shiva Purana </h3>
+	  <h4>shiva  Purana contains 11,000 verses. It is a Sanskrit text that discusses Lingam, the symbol of Shiva, and the origin of the Universe.
+
+It has many stories of Lingam one of which narrates how Agni Linga </h4>
+  	</div>
+  	<div class="col-md-2 text-center m-auto" id="review-2" style="font-family: Gotham, Helvetica Neue, Helvetica, Arial,' sans-serif'">
+	  <h3> 3	Vishnu</h3>
+	  <h4>The Shiva Purana contains almost 24,000 verses. It is one of the major Puranas that has been rendered in Sanskrit. It forms part of the Shaivism literature corpus. </h4>
+  	</div>
+  	<div class="col-md-2 text-center m-auto" id="review-3" style="font-family: Gotham, Helvetica Neue, Helvetica, Arial,' sans-serif'">
+      <h3>4	SHIVA
+      5	DEVI BHAGAVATA </h3>
+	  <h4> Brahmavaivarta	18,000 verses	It is related by Savarni to Narada, and centres around the greatness of Krishna and Radha. In this, the story of Brahma-varaha is repeatedly told.[46] Notable for asserting that Krishna is the supreme reality and the gods Vishnu, Shiva, Brahma are incarnations of him.[47] Mentions geography and rivers such as Ganga to Kaveri.
+Linga	11,000 verses	Discusses Lingam, symbol of Shiva, and origin of the universe as per Shaivism. It also contains many stories of Lingam, one of which entails how Agni Lingam solved a dispute between Vishnu and Brahma.
+</h4>	
+  	</div>
+  	<div class="col-md-2 text-center " id="review-4" style="font-family: Gotham, Helvetica Neue, Helvetica, Arial,' sans-serif'">
+	  <h3 class="mt-0">	MARKANDEYA </h3>
+	  <h4>.Markandeya	9,000 verses	Describes Vindhya Range and western India. Probably composed in the valleys of Narmada and Tapti rivers, in Maharashtra and Gujarat.<br> Named after sage Markandeya, a student of Brahma. Contains chapters on dharma and on Hindu <br> epic Mahabharata.[44] The Purana includes Devi Mahatmyam of Shaktism.
+</h4>
+  	</div>
+  	<div class="col-md-2 text-center " id="review-5" style="font-family: Gotham, Helvetica Neue, Helvetica, Arial,' sans-serif'">
+	  <h3>BRAHMAVAIVARTA
+              LINGA</h3>
+	  <h4> PADMA PURANA .</h4>
+  	</div>
+  </div>
+  <hr>
+  <div class="row">
+  	<div class="col-md-7 m-auto" style="font-family: Gotham, Helvetica Neue, Helvetica, Arial,' sans-serif'" >
+  	<h3> if you would like to join  
+	our website: www.puranalu.in 
+	our youtube channer : puranalu-god-18.</h3>
+  		<form name="registeration  form" class="mt-4 mb-4 border-5 border-dark rgform" id="rform">
+  		<input type="text" name="fnlname" placeholder="first and last name" required class="form-control-lg form-range">
+  		<br><br>
+  		
+  		<input type="date" name="date of birth" placeholder="date-of-birth" required class="form-control-lg form-range">
+  		<br><br>
+  		<input type="email" name="email" placeholder="Email Address" required class="form-control-lg form-range">
+  		<br><br>
+  		<input type="number" name="phone number" placeholder="Phone Number" required class="form-control-lg form-range">
+  		<br><br>
+  		<input type="text" name="subject" placeholder="Subject" required class="form-control-lg form-range">
+  		<br><br>
+  		<select class="form-control-lg form-range"> 
+  		<option> Select location</option>
+  		<option> Hyderabad</option>
+  		<option> Scendrebad</option>
+  		<option> Uppal</option>
+  		<option> gorakhpur</option>
+  		<option> others</option>
+  		</select>
+  		 <button class="btn btn-outline-dark m-3" type="submit">register now</button>
+  		  <button class="btn btn-outline-dark m-3" type="reset">clear</button>
+	  </form>
+  	</div>
+  </div>
+  <div class="row">
+  	<div class="col-md-12 text-capitalize bg-black text-white p-3 text-center"> <b class="fs-5 m-5" > copyrights vadas maharshi </b>
+  	</div>
+  	
+  	
+  </div>
+</div>
+</body>
+</html>
